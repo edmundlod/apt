@@ -1,0 +1,47 @@
+name: Add package to apt repo
+
+on:
+  repository_dispatch:
+    types: [package-built]
+  workflow_dispatch:
+    inputs:
+      deb_url:
+        description: Direct URL to .deb file
+        required: true
+
+jobs:
+  add-package:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install reprepro
+        run: sudo apt-get install -y --no-install-recommends reprepro
+
+      - name: Import GPG signing key
+        run: |
+          echo "${{ secrets.APT_SIGNING_KEY }}" | base64 -d | gpg --import
+          echo "E75C78A28F60F730:6:" | gpg --import-ownertrust
+
+      - name: Download .deb
+        run: |
+          DEB_URL="${{ github.event.client_payload.deb_url || inputs.deb_url }}"
+          echo "Downloading: $DEB_URL"
+          wget -q "$DEB_URL" -O package.deb
+
+      - name: Add to repository
+        run: reprepro includedeb trixie package.deb
+
+      - name: Clean up .deb
+        run: rm package.deb
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dists/ pool/
+          git diff --cached --quiet || git commit -m "Add ${{ github.event.client_payload.package || 'package' }}"
+          git push

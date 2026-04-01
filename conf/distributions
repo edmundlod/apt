@@ -1,0 +1,7 @@
+Origin: edmundlod
+Label: edmundlod
+Codename: trixie
+Architectures: all
+Components: main
+Description: Edmund Lodewijks personal apt repository
+SignWith: E75C78A28F60F730
