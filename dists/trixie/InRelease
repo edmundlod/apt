@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: edmundlod
 Label: edmundlod
 Codename: trixie
-Date: Wed, 01 Apr 2026 19:58:19 UTC
+Date: Wed, 01 Apr 2026 20:00:32 UTC
 Architectures: amd64
 Components: main
 Description: Edmund Lodewijks personal apt repository
@@ -22,8 +22,8 @@ SHA256:
  7dc575632a2963084898de9171854904ad716ab18dbc55370bc830da7bfc175a 125 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQSf9BpEJwodiCJuUPPnXHiij2D3MAUCac142wAKCRDnXHiij2D3
-MM6aAQCWHMXJp/PSFIanr7XRzNXOEsFrdFs7dQjoIrgovseXwgEA6AAl7lvO/KPt
-uaXz6JVZU/L4RrzHM1K40hlsWnarSww=
-=Ntfz
+iHUEARYKAB0WIQSf9BpEJwodiCJuUPPnXHiij2D3MAUCac15YAAKCRDnXHiij2D3
+MGOrAP96osq41teQDKFGOuXtn2AvPU06dmInBXbCKkHNUdG5nAEAudSsWGZ78kpQ
+ZxBBeVdHAcfL5ebwWYFOJHp/XhKtJQY=
+=NRLj
 -----END PGP SIGNATURE-----
