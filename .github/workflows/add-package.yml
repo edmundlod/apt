@@ -24,7 +24,7 @@ jobs:
       - name: Import GPG signing key
         run: |
           echo "${{ secrets.APT_SIGNING_KEY }}" | base64 -d | gpg --import
-          echo "E75C78A28F60F730:6:" | gpg --import-ownertrust
+          echo "9FF41A44270A1D88226E50F3E75C78A28F60F730:6:" | gpg --import-ownertrust
 
       - name: Download .deb
         run: |
