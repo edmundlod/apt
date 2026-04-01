@@ -1,20 +1,24 @@
-Package: spf-tools
-Version: 20250415-1
+Package: postallow
+Version: 4.1.0-1
 Architecture: all
 Maintainer: Edmund Lodewijks <edmund@proteamail.com>
-Installed-Size: 58
-Depends: bind9-host | host
-Homepage: https://github.com/spf-tools/spf-tools
+Installed-Size: 80
+Depends: adduser, postfix, spf-tools, route-summarization
+Homepage: https://github.com/edmundlod/postallow
 Priority: optional
-Section: net
-Filename: pool/main/s/spf-tools/spf-tools_20250415-1_all.deb
-Size: 10734
-SHA256: ddb1ecb6747f146fb09171a0599df4bc36a8ff5fd8e7137e60286c1c56e21cc6
-SHA1: 72a0d13b2b7b2a8fe440e890813b2261b1a3a451
-MD5sum: 1ae9e0d5a66e3d1a285168865ccaf143
-Description: Tools for querying and flattening SPF records
- A collection of shell scripts for querying DNS SPF records and expanding
- them into flat lists of IP addresses and CIDR blocks. Used by postallow
- to generate Postfix Postscreen allowlists from the SPF records of large,
- trusted mail senders.
+Section: mail
+Filename: pool/main/p/postallow/postallow_4.1.0-1_all.deb
+Size: 21734
+SHA256: c516e95ff243d2a1fc5083eb279e090753904e5f68737655bc2b766e77098fb0
+SHA1: f0d5c03746a162c87216f82bf411d225d99ecf88
+MD5sum: 720c79ae95f696d8c6db80150547a80a
+Description: Postfix Postscreen allowlist and blocklist generator from SPF records
+ Postallow generates CIDR allowlists (and optionally blocklists) for Postfix's
+ Postscreen by expanding the SPF records of large, trusted mail senders such as
+ Google, Microsoft, and Yahoo. This allows legitimate mail from these providers
+ to bypass Postscreen's connection-level checks, reducing false positives.
+ .
+ Postallow runs as an unprivileged system user and is driven by a systemd
+ timer (Linux) or rc.d script (BSD). Postfix is reloaded automatically
+ after each successful run.
 
