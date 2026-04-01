@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: edmundlod
+Label: edmundlod
+Codename: trixie
+Date: Wed, 01 Apr 2026 19:50:21 UTC
+Architectures: amd64
+Components: main
+Description: Edmund Lodewijks personal apt repository
+MD5Sum:
+ 49a7abb18d8b049dc69722de16524717 774 main/binary-amd64/Packages
+ 4e1eb73f8e814fc7e4bcf4240011bb80 509 main/binary-amd64/Packages.gz
+ 2f3d5b582804bb2fd608ba4e25391efc 125 main/binary-amd64/Release
+SHA1:
+ 88c0e407014914cd40264cdcec8ba953b8572afa 774 main/binary-amd64/Packages
+ bc1b83ede2ba7ba234b877d8c12a51dd169afb47 509 main/binary-amd64/Packages.gz
+ e48d1673d69c395d39967e39b3db045024614351 125 main/binary-amd64/Release
+SHA256:
+ cb74acba1c905dac924609bd20c2699217e1a138ec029573ed875ffae940c7eb 774 main/binary-amd64/Packages
+ 5028f15c50b5ca80d358bfd6729c821945c3ae427ab7a46ae068935fafad67ad 509 main/binary-amd64/Packages.gz
+ 7dc575632a2963084898de9171854904ad716ab18dbc55370bc830da7bfc175a 125 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQSf9BpEJwodiCJuUPPnXHiij2D3MAUCac12/QAKCRDnXHiij2D3
+MJbQAP4q0xMemr6zU4PFpCxxfav1aivpIzQD0h8lfuC+NO4ZygD+Kegd9oJFfSP8
+ROFTj0kCcbp8Wa+KxTMZWZUNrBTBPAE=
+=0iV8
+-----END PGP SIGNATURE-----

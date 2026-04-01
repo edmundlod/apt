@@ -1,0 +1,19 @@
+Package: route-summarization
+Version: 0.2-1
+Architecture: all
+Maintainer: Edmund Lodewijks <edmund@proteamail.com>
+Installed-Size: 13
+Depends: perl, libnet-cidr-lite-perl
+Homepage: https://github.com/edmundlod/route-summarization
+Priority: optional
+Section: net
+Filename: pool/main/r/route-summarization/route-summarization_0.2-1_all.deb
+Size: 3026
+SHA256: 85647be018f25d4aa8f1bb6404787682fceb53966f947982d5bc70c2c30d0a35
+SHA1: 8ec0d3524aff32c56d86179e1a87312b6ec0e1d1
+MD5sum: d530a60e32c2679ad07362333a4237fb
+Description: IP route summarization and CIDR aggregation tool
+ Reads IPv4 and IPv6 networks one per line from stdin and outputs a
+ summarized, aggregated list of CIDR blocks. Supports an optional --spf
+ mode for parsing SPF prefix notation, as used by postallow.
+
