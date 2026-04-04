@@ -1,19 +1,19 @@
 Origin: edmundlod
 Label: edmundlod
 Codename: trixie
-Date: Sat, 04 Apr 2026 17:13:32 UTC
+Date: Sat, 04 Apr 2026 17:41:11 UTC
 Architectures: amd64
 Components: main
 Description: Edmund Lodewijks personal apt repository
 MD5Sum:
- 31bf60e5e43d89e1ae14c3e1d3fe3be8 2620 main/binary-amd64/Packages
- a3f16183d0f5dd0bbcb0ab841df078d6 1237 main/binary-amd64/Packages.gz
+ 697420b3993c8c35ea8151e1459b2d37 2620 main/binary-amd64/Packages
+ 3df6609e943209ceba9f7803ae3ea5db 1236 main/binary-amd64/Packages.gz
  2f3d5b582804bb2fd608ba4e25391efc 125 main/binary-amd64/Release
 SHA1:
- 63d740719d6d6388fbe10d6b813402179184d8a9 2620 main/binary-amd64/Packages
- f8dc31ba07fc2a1696aac42726153668668a4526 1237 main/binary-amd64/Packages.gz
+ 7e61d81576ca36d3104136af7e7bf290dc662ada 2620 main/binary-amd64/Packages
+ f769a57f92ed339ccb56daa30c55776fd9fcb174 1236 main/binary-amd64/Packages.gz
  e48d1673d69c395d39967e39b3db045024614351 125 main/binary-amd64/Release
 SHA256:
- 86b7b5ca4a9708afa28f04d1f207272dc83f73a9eeed40b19955dff23cc83af8 2620 main/binary-amd64/Packages
- b1a86d9e89cd972f8b194f4b5b60e024d18567c1d6637ca444df7584d838d520 1237 main/binary-amd64/Packages.gz
+ a86ab3ccb6b5d7295c03a1dc88ed56abf2bdf20ba083e3745a2cd4dc700622bf 2620 main/binary-amd64/Packages
+ 6693f5f2e957e18fec45856753be2f442980021e447cd9309982c491966927f2 1236 main/binary-amd64/Packages.gz
  7dc575632a2963084898de9171854904ad716ab18dbc55370bc830da7bfc175a 125 main/binary-amd64/Release
