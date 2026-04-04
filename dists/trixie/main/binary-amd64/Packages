@@ -41,3 +41,23 @@ Description: IP route summarization and CIDR aggregation tool
  summarized, aggregated list of CIDR blocks. Supports an optional --spf
  mode for parsing SPF prefix notation, as used by postallow.
 
+Package: spf-tools
+Version: 20250415-1
+Architecture: all
+Maintainer: Edmund Lodewijks <edmund@proteamail.com>
+Installed-Size: 58
+Depends: bind9-host | host
+Homepage: https://github.com/spf-tools/spf-tools
+Priority: optional
+Section: net
+Filename: pool/main/s/spf-tools/spf-tools_20250415-1_all.deb
+Size: 10734
+SHA256: ddb1ecb6747f146fb09171a0599df4bc36a8ff5fd8e7137e60286c1c56e21cc6
+SHA1: 72a0d13b2b7b2a8fe440e890813b2261b1a3a451
+MD5sum: 1ae9e0d5a66e3d1a285168865ccaf143
+Description: Tools for querying and flattening SPF records
+ A collection of shell scripts for querying DNS SPF records and expanding
+ them into flat lists of IP addresses and CIDR blocks. Used by postallow
+ to generate Postfix Postscreen allowlists from the SPF records of large,
+ trusted mail senders.
+
