@@ -24,7 +24,7 @@ Description: Postfix Postscreen allowlist and blocklist generator from SPF recor
  after each successful run.
 
 Package: route-summarization
-Version: 0.3-1
+Version: 0.3.1-1
 Architecture: all
 Maintainer: Edmund Lodewijks <edmund@proteamail.com>
 Installed-Size: 13
@@ -32,11 +32,11 @@ Depends: perl, libnet-cidr-lite-perl
 Homepage: https://github.com/edmundlod/route-summarization
 Priority: optional
 Section: net
-Filename: pool/main/r/route-summarization/route-summarization_0.3-1_all.deb
-Size: 3202
-SHA256: 9ca5d958cbedb0daf3177d2668d115e3b0c2b8da7e43b3809ed2265580449bdf
-SHA1: e41f354cda60d4b5b30547554c905711c9b7e3a6
-MD5sum: e544ca90321bf862dd189affb587c667
+Filename: pool/main/r/route-summarization/route-summarization_0.3.1-1_all.deb
+Size: 3258
+SHA256: 463badc2e6ed9efe3ce36caffc72bf3b161a522ee540d24f6ce3c836c7069887
+SHA1: 0f8bab567b67867881075684018049dc0beca35a
+MD5sum: 5b2589570a2471e2157bcc07c6a532b7
 Description: IP route summarization and CIDR aggregation tool
  Reads IPv4 and IPv6 networks one per line from stdin and outputs a
  summarized, aggregated list of CIDR blocks. Supports an optional --spf
