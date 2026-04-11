@@ -4,26 +4,26 @@ Hash: SHA512
 Origin: edmundlod
 Label: edmundlod
 Codename: trixie
-Date: Sat, 11 Apr 2026 17:51:20 UTC
+Date: Sat, 11 Apr 2026 18:00:24 UTC
 Architectures: amd64
 Components: main
 Description: Edmund Lodewijks personal apt repository
 MD5Sum:
- 179392cb5634be840c1c534dc7553d1d 2643 main/binary-amd64/Packages
- eb9928212c4f163130c1835f4c5a70a5 1249 main/binary-amd64/Packages.gz
+ 064a86a6ad219d0ebb130f65fc4d295a 2643 main/binary-amd64/Packages
+ e5acf7168fe1e40a8d9a56e90a1b173c 1247 main/binary-amd64/Packages.gz
  2f3d5b582804bb2fd608ba4e25391efc 125 main/binary-amd64/Release
 SHA1:
- ab4f95d3267891352c66c1e89b357f606a527182 2643 main/binary-amd64/Packages
- 6a7f3ff1e5dae06bf4a1dffdb7c14d3aa431c134 1249 main/binary-amd64/Packages.gz
+ 6fdb0eef113f4f00b76cd475538d14a3c2ef2d3f 2643 main/binary-amd64/Packages
+ b06f0b67c4a39862c6153e9f096a2e8b6dc3e43b 1247 main/binary-amd64/Packages.gz
  e48d1673d69c395d39967e39b3db045024614351 125 main/binary-amd64/Release
 SHA256:
- 09ba13c7a6156dc37924f9a5ebd0826c4907e4d007c19ca9c0efec83f077c8a4 2643 main/binary-amd64/Packages
- 59d74cadb9a2b40ca5badef09c34fc55f5cd9633d78a145d6bc2fb3f0ccd0281 1249 main/binary-amd64/Packages.gz
+ a2292b8947ae59925b09c31e7e84a426896cbae10eb09961ce6fae7942e7b993 2643 main/binary-amd64/Packages
+ e94af44e5dc0e0a983ffab5d934f47c0fcb67829a46ffcdcdc9f8c1e727c710f 1247 main/binary-amd64/Packages.gz
  7dc575632a2963084898de9171854904ad716ab18dbc55370bc830da7bfc175a 125 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQSf9BpEJwodiCJuUPPnXHiij2D3MAUCadqKGAAKCRDnXHiij2D3
-MFy+AP48h+W+HbbFcGIME0jv8NnJgxlD44keutuEGOmakguFBwEA0DO647aYc3xJ
-22pS6Jv0/7p2fYvU1e2yJi6CWErBBQk=
-=n7Qa
+iHUEARYKAB0WIQSf9BpEJwodiCJuUPPnXHiij2D3MAUCadqMOAAKCRDnXHiij2D3
+MD41AQC4eoUB01oNapcx9b92JAQw/SgkRYs+IXSOoAX+jqGp0AEA5RHierHVg1/P
+sHag5MbTBH4IGjldwr8ETo1a/IPH1Q0=
+=M/np
 -----END PGP SIGNATURE-----
