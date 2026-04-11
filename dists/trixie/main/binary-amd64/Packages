@@ -1,18 +1,18 @@
 Package: postallow
-Version: 4.1.3-1
+Version: 4.2.0-1
 Architecture: all
 Maintainer: Edmund Lodewijks <edmund@proteamail.com>
-Installed-Size: 84
+Installed-Size: 85
 Depends: adduser, postfix, spf-tools, route-summarization
 Suggests: apparmor
 Homepage: https://github.com/edmundlod/postallow
 Priority: optional
 Section: mail
-Filename: pool/main/p/postallow/postallow_4.1.3-1_all.deb
-Size: 23242
-SHA256: b586a56076bb2234e66adf469ddace793b79593fe043859884f0104198e19116
-SHA1: fdbdd85eab76fe0d61806846c5d67695c651cd61
-MD5sum: 9143fac6d274c64d571ae9d2e8c5307e
+Filename: pool/main/p/postallow/postallow_4.2.0-1_all.deb
+Size: 23356
+SHA256: 7bfd37cffe8f4fcd90fe545fd008e6c44c8360336387956c8b45ca02d32a0f87
+SHA1: f59735791598a8f94e6e564c433e713854dfaf28
+MD5sum: 7a1aada2ee8bc52e8211e830b146eea4
 Description: Postfix Postscreen allowlist and blocklist generator from SPF records
  Postallow generates CIDR allowlists (and optionally blocklists) for Postfix's
  Postscreen by expanding the SPF records of large, trusted mail senders such as
