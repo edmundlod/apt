@@ -47,9 +47,11 @@ sudo apt install opendkim-ng
 
 ## Supported distributions
 
-Currently targets **Debian 13 (trixie)**. All packages are `Architecture: all`
-(pure shell/Perl scripts) and will work on any amd64 Debian or Ubuntu system
-with a compatible libc.
+Currently targets **Debian 13 (trixie)**.
+
+`postallow`, `spf-tools`, and `route-summarization` are `Architecture: all` (pure shell/Perl scripts) and will work on any Debian or Ubuntu system with a compatible libc.
+
+`opendkim-ng` and its sub-packages are `Architecture: amd64`.
 
 ## Signing key
 
