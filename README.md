@@ -9,6 +9,7 @@ Personal apt repository for Debian/Ubuntu packages maintained by Edmund Lodewijk
 | `postallow` | Postfix Postscreen allowlist and blocklist generator from SPF records |
 | `spf-tools` | Tools for querying and flattening SPF DNS records |
 | `route-summarization` | IP route summarization and CIDR aggregation tool (`aggregateCIDR.pl`) |
+| `opendkim-ng` | A modernised fork of OpenDKIM |
 
 ## Installation
 
@@ -28,7 +29,7 @@ https://edmundlod.github.io/apt trixie main" \
   | sudo tee /etc/apt/sources.list.d/edmundlod.list
 ```
 
-### 3. Install
+### 3. Install - postallow
 
 ```bash
 sudo apt update
@@ -36,6 +37,13 @@ sudo apt install postallow
 ```
 
 `postallow` depends on `spf-tools` and `route-summarization` — both are pulled in automatically.
+
+### 4. Install - opendkim-ng
+
+```bash
+sudo apt update
+sudo apt install opendkim-ng
+```
 
 ## Supported distributions
 
@@ -57,3 +65,4 @@ same URL and re-run step 1.
 - [postallow](https://github.com/edmundlod/postallow)
 - [spf-tools](https://github.com/edmundlod/spf-tools)
 - [route-summarization](https://github.com/edmundlod/route-summarization)
+- [opendkim-ng](https://github.com/edmundlod/opendkim-ng)
