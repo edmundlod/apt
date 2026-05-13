@@ -23,6 +23,33 @@ Description: DomainKeys Identified Mail (DKIM) library (development files)
  This package provides the required header files and development libraries for
  developing against the OpenDKIM library.
 
+Package: libopendkim13
+Source: opendkim-ng
+Version: 3.0.0~beta6-ng1
+Architecture: amd64
+Maintainer: Edmund Lodewijks <edmund@proteamail.com>
+Installed-Size: 168
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.34), libssl3 (>= 3.0.0)
+Multi-Arch: same
+Homepage: http://github.org/edmundlod/opendkim-ng
+Priority: optional
+Section: libs
+Filename: pool/main/o/opendkim-ng/libopendkim13_3.0.0~beta6-ng1_amd64.deb
+Size: 80560
+SHA256: 7b058c2c3ac631c9ac6f85078e664874d13812055fc7df601fddc5b40ee8d92c
+SHA1: 3cdd36242e832b764cbdcf69cf2b7d24e9633634
+MD5sum: 1a7fd401d54c235f51edcf36c2b5cfab
+Description: DomainKeys Identified Mail (DKIM) library
+ This is a fork of the original OpenDKIM Project. Support was added for
+ OpenSSL 3, and Ed25519 signing and verifying were added.
+ Some DKIM features that have since been abandoned or that were never fully
+ implemented have been removed.
+ .
+ This package provides library for implementing signing and verification of the
+ DomainKeys Identified Mail (DKIM) standard. This library provides support for
+ signing and verifying signatures according to RFC 4871, and supports both
+ DomainKeys signing policy and DKIM ADSP.
+
 Package: libopendkim13-dbgsym
 Source: opendkim-ng
 Version: 3.0.0~beta6-ng1
