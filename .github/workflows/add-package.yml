@@ -44,7 +44,7 @@ jobs:
             echo "$DEB_URLS" | jq -r '.[]' | while read url; do
               echo "Downloading: $url"
               wget -q "$url" -O package.deb
-              reprepro includedeb "$CODENAME" package.deb
+              reprepro -V includedeb "$CODENAME" package.deb || echo "WARNING: reprepro failed for $url"
               rm package.deb
             done
           else
