@@ -95,6 +95,28 @@ Description: Utility for testing milter applications
  driver for milter application tests. miltertest executes milter test scripts
  written in the Lua programming language.
 
+Package: opendkim-keygen
+Source: opendkim-ng
+Version: 3.0.0~beta6-ng1
+Architecture: all
+Maintainer: Edmund Lodewijks <edmund@proteamail.com>
+Installed-Size: 55
+Homepage: http://github.org/edmundlod/opendkim-ng
+Priority: optional
+Section: mail
+Filename: pool/main/o/opendkim-ng/opendkim-keygen_3.0.0~beta6-ng1_all.deb
+Size: 36504
+SHA256: 6ecf2ddb1214230ff68b8d430a5773f351d6a0055b94d336c764a06f5f60421a
+SHA1: cbf59cc6d62101acf238b98cae96abea468351e2
+MD5sum: 3b595355884a352c38ca2c9e0c131a0d
+Description: Utility for generating DKIM and ARC keys (RSA and Ed25519)
+ This is a fork of the original OpenDKIM Project. Support was added for
+ OpenSSL 3, and Ed25519 signing and verifying were added.
+ Some DKIM features that have since been abandoned or that were never fully
+ implemented have been removed.
+ .
+ This package contains a command line tool for generating DKIM and ARC keys.
+
 Package: opendkim-tools-dbgsym
 Source: opendkim-ng
 Version: 3.0.0~beta6-ng1
