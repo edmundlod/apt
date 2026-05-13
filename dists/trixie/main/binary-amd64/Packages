@@ -1,3 +1,28 @@
+Package: libopendkim-dev
+Source: opendkim-ng
+Version: 3.0.0~beta6-ng1
+Architecture: amd64
+Maintainer: Edmund Lodewijks <edmund@proteamail.com>
+Installed-Size: 311
+Depends: libopendkim13 (= 3.0.0~beta6-ng1)
+Multi-Arch: same
+Homepage: http://github.org/edmundlod/opendkim-ng
+Priority: optional
+Section: libdevel
+Filename: pool/main/o/opendkim-ng/libopendkim-dev_3.0.0~beta6-ng1_amd64.deb
+Size: 94192
+SHA256: d94da4ccd01504c7c5c5323834e95723aa37f0bd1e5c0df286f3eb4ce61c7565
+SHA1: eaf74571ec51e80ae976515e12d1e05b89b729c6
+MD5sum: 24e26ac765073949ec947868e26a834f
+Description: DomainKeys Identified Mail (DKIM) library (development files)
+ This is a fork of the original OpenDKIM Project. Support was added for
+ OpenSSL 3, and Ed25519 signing and verifying were added.
+ Some DKIM features that have since been abandoned or that were never fully
+ implemented have been removed.
+ .
+ This package provides the required header files and development libraries for
+ developing against the OpenDKIM library.
+
 Package: postallow
 Version: 4.3.0-2
 Architecture: all
