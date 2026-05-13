@@ -1,5 +1,13 @@
 Origin: edmundlod
 Label: edmundlod
+Codename: bookworm
+Architectures: amd64
+Components: main
+Description: Edmund Lodewijks personal apt repository
+SignWith: E75C78A28F60F730
+
+Origin: edmundlod
+Label: edmundlod
 Codename: trixie
 Architectures: amd64
 Components: main

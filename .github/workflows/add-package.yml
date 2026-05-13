@@ -8,6 +8,10 @@ on:
       deb_url:
         description: Direct URL to .deb file
         required: true
+      codename:
+        description: Distribution codename (bookworm or trixie)
+        required: true
+        default: trixie
 
 jobs:
   add-package:
@@ -33,7 +37,9 @@ jobs:
           wget -q "$DEB_URL" -O package.deb
 
       - name: Add to repository
-        run: reprepro includedeb trixie package.deb
+        run: |
+          CODENAME="${{ github.event.client_payload.codename || inputs.codename }}"
+          reprepro includedeb "$CODENAME" package.deb
 
       - name: Clean up .deb
         run: rm package.deb
