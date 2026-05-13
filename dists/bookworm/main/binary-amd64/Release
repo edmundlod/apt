@@ -1,0 +1,5 @@
+Component: main
+Origin: edmundlod
+Label: edmundlod
+Architecture: amd64
+Description: Edmund Lodewijks personal apt repository

@@ -1,0 +1,25 @@
+Package: libopendkim-dev
+Source: opendkim-ng
+Version: 3.0.0~beta7-ng1
+Architecture: amd64
+Maintainer: Edmund Lodewijks <edmund@proteamail.com>
+Installed-Size: 311
+Depends: libopendkim13 (= 3.0.0~beta7-ng1)
+Multi-Arch: same
+Homepage: http://github.org/edmundlod/opendkim-ng
+Priority: optional
+Section: libdevel
+Filename: pool/main/o/opendkim-ng/libopendkim-dev_3.0.0~beta7-ng1_amd64.deb
+Size: 94328
+SHA256: fa04cc2be0e7465e87ce1a52f4411254631956ee1e6a8e0755c5822f8a3824f1
+SHA1: 4db7d824ba29ebc8eb61de8839e81d15a7060480
+MD5sum: 615ad39863d9ee30eca08b931328fe4a
+Description: DomainKeys Identified Mail (DKIM) library (development files)
+ This is a fork of the original OpenDKIM Project. Support was added for
+ OpenSSL 3, and Ed25519 signing and verifying were added.
+ Some DKIM features that have since been abandoned or that were never fully
+ implemented have been removed.
+ .
+ This package provides the required header files and development libraries for
+ developing against the OpenDKIM library.
+

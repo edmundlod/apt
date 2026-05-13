@@ -1,0 +1,19 @@
+Origin: edmundlod
+Label: edmundlod
+Codename: bookworm
+Date: Wed, 13 May 2026 21:18:17 UTC
+Architectures: amd64
+Components: main
+Description: Edmund Lodewijks personal apt repository
+MD5Sum:
+ dc0668508db91f2dbe6fbdf2ebc2e171 997 main/binary-amd64/Packages
+ aecd4d3438128c273ed468ef8be9ad12 630 main/binary-amd64/Packages.gz
+ 2f3d5b582804bb2fd608ba4e25391efc 125 main/binary-amd64/Release
+SHA1:
+ 2d0da4550cc586dd29abdd7a5b98236516a92d3f 997 main/binary-amd64/Packages
+ d0756524ba4db86d7d9df309f196f67dc2072f32 630 main/binary-amd64/Packages.gz
+ e48d1673d69c395d39967e39b3db045024614351 125 main/binary-amd64/Release
+SHA256:
+ 5487e977cbba3c5c35caf9d5d5e878ecb714bbf3bec9fb1bf4f40fd4a6ef5b83 997 main/binary-amd64/Packages
+ 5e21c592a61916896f6af903a3844b96999035546858f6c4badd403745c72ec9 630 main/binary-amd64/Packages.gz
+ 7dc575632a2963084898de9171854904ad716ab18dbc55370bc830da7bfc175a 125 main/binary-amd64/Release
