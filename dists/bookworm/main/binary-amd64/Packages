@@ -23,3 +23,22 @@ Description: DomainKeys Identified Mail (DKIM) library (development files)
  This package provides the required header files and development libraries for
  developing against the OpenDKIM library.
 
+Package: libopendkim13-dbgsym
+Source: opendkim-ng
+Version: 3.0.0~beta8-ng1~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Edmund Lodewijks <edmund@proteamail.com>
+Installed-Size: 151
+Depends: libopendkim13 (= 3.0.0~beta8-ng1~bpo12+1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/o/opendkim-ng/libopendkim13-dbgsym_3.0.0~beta8-ng1~bpo12+1_amd64.deb
+Size: 128048
+SHA256: 61371b1f26c89d3079fa7c64d62272c1401c7cbe2f14652f92eb786157e442c4
+SHA1: 210da09e4e02f1e14b86c68ff55b8c9399516919
+MD5sum: 5079d447bfdf4ba8b6087b95486d7f6a
+Description: debug symbols for libopendkim13
+Build-Ids: 5761d9188eeb173ee1c479af76ea2b775d7b1888
+
