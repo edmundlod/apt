@@ -117,6 +117,36 @@ Description: Utility for generating DKIM and ARC keys (RSA and Ed25519)
  .
  This package contains a command line tool for generating DKIM and ARC keys.
 
+Package: opendkim-ng
+Version: 3.0.0~beta6-ng1
+Architecture: amd64
+Maintainer: Edmund Lodewijks <edmund@proteamail.com>
+Installed-Size: 368
+Depends: libopendkim13 (= 3.0.0~beta6-ng1), libbsd0 (>= 0.0), libc6 (>= 2.34), libhiredis0.14 (>= 0.14.0), liblmdb0 (>= 0.9.7), liblua5.4-0 (>= 5.4.4), libmilter1.0.1 (>= 8.14.1), libssl3 (>= 3.0.0), libunbound8 (>= 1.8.0), adduser, dns-root-data
+Recommends: opendkim-tools
+Conflicts: opendkim
+Replaces: opendkim
+Provides: opendkim
+Homepage: http://github.org/edmundlod/opendkim-ng
+Priority: optional
+Section: mail
+Filename: pool/main/o/opendkim-ng/opendkim-ng_3.0.0~beta6-ng1_amd64.deb
+Size: 161492
+SHA256: bd6c403815d5dedf02945122caae3cfd1f83aed00e07a70645414b015797038f
+SHA1: 25d74dd4eecf48979b2e519ba7dca03bd379f8c9
+MD5sum: 05d9686eac9ad2a945b037bb23831b7a
+Description: DomainKeys Identified Mail (DKIM) signing and verifying milter
+ This is a fork of the original OpenDKIM Project. Support was added for
+ OpenSSL 3, and Ed25519 signing and verifying were added.
+ Some DKIM features that have since been abandoned or that were never fully
+ implemented have been removed.
+ .
+ DKIM provides a way for senders to confirm their identity when sending email
+ by adding a cryptographic signature to the headers of the message.
+ .
+ This package contains the OpenDKIM mail filter (Milter) for plugging into
+ Milter-aware MTAs. It implements both signing and verification.
+
 Package: opendkim-ng-dbgsym
 Source: opendkim-ng
 Version: 3.0.0~beta6-ng1
