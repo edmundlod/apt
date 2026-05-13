@@ -149,21 +149,21 @@ Description: DomainKeys Identified Mail (DKIM) signing and verifying milter
 
 Package: opendkim-ng-dbgsym
 Source: opendkim-ng
-Version: 3.0.0~beta6-ng1
+Version: 3.0.0~beta7-ng1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Edmund Lodewijks <edmund@proteamail.com>
-Installed-Size: 304
-Depends: opendkim-ng (= 3.0.0~beta6-ng1)
+Installed-Size: 384
+Depends: opendkim-ng (= 3.0.0~beta7-ng1)
 Priority: optional
 Section: debug
-Filename: pool/main/o/opendkim-ng/opendkim-ng-dbgsym_3.0.0~beta6-ng1_amd64.deb
-Size: 261604
-SHA256: 2fdfd5a3a685c5bbaaff9abdb257c0449ca5d5261322ddc34ab0958629e7cf25
-SHA1: 8a709fa3553d1dee9448c14653a419de33c373d0
-MD5sum: 8e9be02870f5e5d7616a7956a2d1c0c6
+Filename: pool/main/o/opendkim-ng/opendkim-ng-dbgsym_3.0.0~beta7-ng1_amd64.deb
+Size: 273156
+SHA256: 7b0405a768bde1d3d73142adf57f1408ee86af0e09416a9f9efa4796773a3e87
+SHA1: 0cb7ec72158e9c37bd1b02ece59e95d0f8feb467
+MD5sum: 6a013fd0eaf8d25ae17cd3aa4ceee718
 Description: debug symbols for opendkim-ng
-Build-Ids: db81cbbf4d871970051ee92866cda3da9f032a77 ecac36a09892cc8ce8da781ed7e65a701f3ab1e2
+Build-Ids: 7a85e83754700f23b62373e4c08d0888daf729c7 9b7586ca60a26b5315d9e838fcb09dd487dc57ac
 
 Package: opendkim-tools
 Source: opendkim-ng
