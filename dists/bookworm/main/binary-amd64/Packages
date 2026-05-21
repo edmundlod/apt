@@ -1,19 +1,19 @@
 Package: libopendkim-dev
 Source: opendkim-ng
-Version: 3.0.0~beta10-ng1~bpo12+1
+Version: 3.0.0~beta11-ng1~bpo12+1
 Architecture: amd64
 Maintainer: Edmund Lodewijks <edmund@proteamail.com>
-Installed-Size: 311
-Depends: libopendkim13 (= 3.0.0~beta10-ng1~bpo12+1)
+Installed-Size: 317
+Depends: libopendkim13 (= 3.0.0~beta11-ng1~bpo12+1)
 Multi-Arch: same
 Homepage: http://github.org/edmundlod/opendkim-ng
 Priority: optional
 Section: libdevel
-Filename: pool/main/o/opendkim-ng/libopendkim-dev_3.0.0~beta10-ng1~bpo12+1_amd64.deb
-Size: 94480
-SHA256: 9a957c65d3ea30072f6112195cac0e58254b770a29c45a052b6a65f1b3b735f7
-SHA1: 676b7358333f988ba8470adb871c7de833ce76bd
-MD5sum: 5baa4bd8956e0a5a5d25447f21734576
+Filename: pool/main/o/opendkim-ng/libopendkim-dev_3.0.0~beta11-ng1~bpo12+1_amd64.deb
+Size: 96152
+SHA256: 078c9c016dd09529b601b360bc02490c9734c2f1869280ff6e18a10e2d4ca094
+SHA1: 8e85170b4631a625518b82365f70b62c98e650c9
+MD5sum: eb971db77c1d278893538ad0cb98fa56
 Description: DomainKeys Identified Mail (DKIM) library (development files)
  This is a fork of the original OpenDKIM Project. Support was added for
  OpenSSL 3, and Ed25519 signing and verifying were added.
@@ -25,20 +25,20 @@ Description: DomainKeys Identified Mail (DKIM) library (development files)
 
 Package: libopendkim13
 Source: opendkim-ng
-Version: 3.0.0~beta10-ng1~bpo12+1
+Version: 3.0.0~beta11-ng1~bpo12+1
 Architecture: amd64
 Maintainer: Edmund Lodewijks <edmund@proteamail.com>
-Installed-Size: 168
+Installed-Size: 177
 Depends: libbsd0 (>= 0.0), libc6 (>= 2.34), libssl3 (>= 3.0.0)
 Multi-Arch: same
 Homepage: http://github.org/edmundlod/opendkim-ng
 Priority: optional
 Section: libs
-Filename: pool/main/o/opendkim-ng/libopendkim13_3.0.0~beta10-ng1~bpo12+1_amd64.deb
-Size: 80824
-SHA256: a595459bc92cf8ad8b1a5020303ecc981b371632d74ebdf136a52914880e41e6
-SHA1: 61f608be35ea5ec66e3c7bce61f732f3f83a4979
-MD5sum: a2cc951ce2f7b82c50749bd1fcdfa1a0
+Filename: pool/main/o/opendkim-ng/libopendkim13_3.0.0~beta11-ng1~bpo12+1_amd64.deb
+Size: 82524
+SHA256: 7b4f063cd70f51854cbd0d9857c715a24a4d4f6bf81baa2395faa1fb3595305a
+SHA1: 533b0d1b989827f351e4fc4292ec5c7214f77699
+MD5sum: 3220508bde7b68cc1cf5e1069ac2dbcc
 Description: DomainKeys Identified Mail (DKIM) library
  This is a fork of the original OpenDKIM Project. Support was added for
  OpenSSL 3, and Ed25519 signing and verifying were added.
@@ -52,39 +52,39 @@ Description: DomainKeys Identified Mail (DKIM) library
 
 Package: libopendkim13-dbgsym
 Source: opendkim-ng
-Version: 3.0.0~beta10-ng1~bpo12+1
+Version: 3.0.0~beta11-ng1~bpo12+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Edmund Lodewijks <edmund@proteamail.com>
-Installed-Size: 151
-Depends: libopendkim13 (= 3.0.0~beta10-ng1~bpo12+1)
+Installed-Size: 153
+Depends: libopendkim13 (= 3.0.0~beta11-ng1~bpo12+1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/o/opendkim-ng/libopendkim13-dbgsym_3.0.0~beta10-ng1~bpo12+1_amd64.deb
-Size: 128048
-SHA256: 648f62b8851b9439277f5c87bc87b917a7d000f73147a751871d6f094b27b235
-SHA1: 76c817c65466cf8dddcb7ee942c0d34b0cb60789
-MD5sum: 282219e27ae44432fd6ecd4485a8e9c5
+Filename: pool/main/o/opendkim-ng/libopendkim13-dbgsym_3.0.0~beta11-ng1~bpo12+1_amd64.deb
+Size: 129364
+SHA256: 4e9ebf0e3409c493513702486b3b76f16067c3efb7f633a71ba36f63fece2fc1
+SHA1: 3ab227b80c13bb6eb4ab4aa6e72674fd3afdaeca
+MD5sum: 7b9b7e5e1dccf7f4eaa541f78d9a004d
 Description: debug symbols for libopendkim13
-Build-Ids: 5761d9188eeb173ee1c479af76ea2b775d7b1888
+Build-Ids: aa16e970abb2bf93a246a304126808323a80af3a
 
 Package: miltertest
 Source: opendkim-ng
-Version: 3.0.0~beta10-ng1~bpo12+1
+Version: 3.0.0~beta11-ng1~bpo12+1
 Architecture: amd64
 Maintainer: Edmund Lodewijks <edmund@proteamail.com>
-Installed-Size: 42
+Installed-Size: 43
 Breaks: opendkim-tools (<< 2.11.0~beta2-3)
 Replaces: opendkim-tools (<< 2.11.0~beta2-3)
 Homepage: http://github.org/edmundlod/opendkim-ng
 Priority: optional
 Section: devel
-Filename: pool/main/o/opendkim-ng/miltertest_3.0.0~beta10-ng1~bpo12+1_amd64.deb
-Size: 33044
-SHA256: d611cf04359ae7a06a0aa23a5c551947bff599bb71e4943f0ec442e7e1e05b41
-SHA1: b28837c836df62aa8940b01d2c1f7e42f0cb322f
-MD5sum: 3b212de6c77dbb9b5b9f41962cd7b67f
+Filename: pool/main/o/opendkim-ng/miltertest_3.0.0~beta11-ng1~bpo12+1_amd64.deb
+Size: 33812
+SHA256: 3dd873c64aa84014a46c8bcf467ff3459e2e218b1078db4a4ad9358c828a7e29
+SHA1: e27d9403b55ea297ac2898ea467f9dbf00013096
+MD5sum: 7b49f67af335014e368ceaacf90d94c8
 Description: Utility for testing milter applications
  This is a fork of the original OpenDKIM Project. Support was added for
  OpenSSL 3, and Ed25519 signing and verifying were added.
@@ -97,18 +97,18 @@ Description: Utility for testing milter applications
 
 Package: opendkim-keygen
 Source: opendkim-ng
-Version: 3.0.0~beta10-ng1~bpo12+1
+Version: 3.0.0~beta11-ng1~bpo12+1
 Architecture: all
 Maintainer: Edmund Lodewijks <edmund@proteamail.com>
-Installed-Size: 55
+Installed-Size: 56
 Homepage: http://github.org/edmundlod/opendkim-ng
 Priority: optional
 Section: mail
-Filename: pool/main/o/opendkim-ng/opendkim-keygen_3.0.0~beta10-ng1~bpo12+1_all.deb
-Size: 36736
-SHA256: 876127917f386a99ee37ee73dc083a481bc844d649258dda389f742b4d167a04
-SHA1: bfcc1ff85b0aee5bdc5a0e7cf136e9845cf392e2
-MD5sum: 2247b06553eb5c37dd0d09c2b3dd18f3
+Filename: pool/main/o/opendkim-ng/opendkim-keygen_3.0.0~beta11-ng1~bpo12+1_all.deb
+Size: 37504
+SHA256: 9ee4f073f1d1e49a722d132eaecbf58e2deac37d5841ebf0ed6cb2e78d122d60
+SHA1: 2be312aaea528b3ccc68409790c71810a4c9039e
+MD5sum: 4e7f621e135a8596ca9a284447e18d2c
 Description: Utility for generating DKIM and ARC keys (RSA and Ed25519)
  This is a fork of the original OpenDKIM Project. Support was added for
  OpenSSL 3, and Ed25519 signing and verifying were added.
@@ -118,11 +118,11 @@ Description: Utility for generating DKIM and ARC keys (RSA and Ed25519)
  This package contains a command line tool for generating DKIM and ARC keys.
 
 Package: opendkim-ng
-Version: 3.0.0~beta10-ng1~bpo12+1
+Version: 3.0.0~beta11-ng1~bpo12+1
 Architecture: amd64
 Maintainer: Edmund Lodewijks <edmund@proteamail.com>
-Installed-Size: 368
-Depends: libopendkim13 (= 3.0.0~beta10-ng1~bpo12+1), libbsd0 (>= 0.0), libc6 (>= 2.34), libhiredis0.14 (>= 0.14.0), liblmdb0 (>= 0.9.7), liblua5.4-0 (>= 5.4.4), libmilter1.0.1 (>= 8.14.1), libssl3 (>= 3.0.0), libunbound8 (>= 1.8.0), adduser, dns-root-data
+Installed-Size: 373
+Depends: libopendkim13 (= 3.0.0~beta11-ng1~bpo12+1), libbsd0 (>= 0.0), libc6 (>= 2.34), libhiredis0.14 (>= 0.14.0), liblmdb0 (>= 0.9.7), liblua5.4-0 (>= 5.4.4), libmilter1.0.1 (>= 8.14.1), libssl3 (>= 3.0.0), libunbound8 (>= 1.8.0), adduser, dns-root-data
 Recommends: opendkim-tools
 Conflicts: opendkim
 Replaces: opendkim
@@ -130,11 +130,11 @@ Provides: opendkim
 Homepage: http://github.org/edmundlod/opendkim-ng
 Priority: optional
 Section: mail
-Filename: pool/main/o/opendkim-ng/opendkim-ng_3.0.0~beta10-ng1~bpo12+1_amd64.deb
-Size: 161668
-SHA256: 497cdb9c614a17dbdfa4479a3e3e7643b9dd4eb0e3fcef3833c0a72d656512d6
-SHA1: 02a94d8e450663d74a01782f70eae2c5455148c7
-MD5sum: a00127f34bac090062f0afd57d4e7a75
+Filename: pool/main/o/opendkim-ng/opendkim-ng_3.0.0~beta11-ng1~bpo12+1_amd64.deb
+Size: 163792
+SHA256: 0828ce737c6e608d233dd19c749a2018657d6ed21bf3632d6963c415622b23f0
+SHA1: ffbd9ef4f7ba5ad49eea71bb233ced49d0ed9c42
+MD5sum: 87e788ca4de63d9b8bbd0b3c397d8684
 Description: DomainKeys Identified Mail (DKIM) signing and verifying milter
  This is a fork of the original OpenDKIM Project. Support was added for
  OpenSSL 3, and Ed25519 signing and verifying were added.
@@ -149,39 +149,39 @@ Description: DomainKeys Identified Mail (DKIM) signing and verifying milter
 
 Package: opendkim-ng-dbgsym
 Source: opendkim-ng
-Version: 3.0.0~beta10-ng1~bpo12+1
+Version: 3.0.0~beta11-ng1~bpo12+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Edmund Lodewijks <edmund@proteamail.com>
-Installed-Size: 304
-Depends: opendkim-ng (= 3.0.0~beta10-ng1~bpo12+1)
+Installed-Size: 307
+Depends: opendkim-ng (= 3.0.0~beta11-ng1~bpo12+1)
 Priority: optional
 Section: debug
-Filename: pool/main/o/opendkim-ng/opendkim-ng-dbgsym_3.0.0~beta10-ng1~bpo12+1_amd64.deb
-Size: 261612
-SHA256: 580b9f9a0ba2528e49b3a0d6fee56fd17d3a107816ced4b3858358b4d408d5de
-SHA1: b8325c4fff691006a667bfa1c920fce3007b2581
-MD5sum: e973ffcf43c56ae844ca7c448fd7eb55
+Filename: pool/main/o/opendkim-ng/opendkim-ng-dbgsym_3.0.0~beta11-ng1~bpo12+1_amd64.deb
+Size: 264600
+SHA256: 996377d55d1741dcd165ec9b96e7f651316e7d7eb5823b14c97dc4a527f954ae
+SHA1: 97d197dba95d011df6afd817849d3c15bbcb7051
+MD5sum: 0dfe9d43f0773f0562ff5415fdeefe0a
 Description: debug symbols for opendkim-ng
-Build-Ids: db81cbbf4d871970051ee92866cda3da9f032a77 ecac36a09892cc8ce8da781ed7e65a701f3ab1e2
+Build-Ids: 5535493765bb86d2fbfea251939b94df1fb34a0b 9742a7099b92ab4dbfa0b8e6eaa7c4cd28475e0b
 
 Package: opendkim-tools
 Source: opendkim-ng
-Version: 3.0.0~beta10-ng1~bpo12+1
+Version: 3.0.0~beta11-ng1~bpo12+1
 Architecture: amd64
 Maintainer: Edmund Lodewijks <edmund@proteamail.com>
-Installed-Size: 204
-Depends: libbsd0 (>= 0.0), libc6 (>= 2.34), libhiredis0.14 (>= 0.14.0), liblmdb0 (>= 0.9.7), liblua5.4-0 (>= 5.4.4), libopendkim13 (>= 3.0.0~beta10), libssl3 (>= 3.0.0), libunbound8 (>= 1.8.0)
+Installed-Size: 213
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.34), libhiredis0.14 (>= 0.14.0), liblmdb0 (>= 0.9.7), liblua5.4-0 (>= 5.4.4), libopendkim13 (>= 3.0.0~beta11), libssl3 (>= 3.0.0), libunbound8 (>= 1.8.0)
 Breaks: opendkim (<< 2.5.2+dfsg-2~)
 Replaces: opendkim (<< 2.5.2+dfsg-2~)
 Homepage: http://github.org/edmundlod/opendkim-ng
 Priority: optional
 Section: mail
-Filename: pool/main/o/opendkim-ng/opendkim-tools_3.0.0~beta10-ng1~bpo12+1_amd64.deb
-Size: 73912
-SHA256: 3fe9a981b54ba85ed6de8e06d2a19bc6f15f9157a7a1c1e00997df17426c7c71
-SHA1: 206c5ff2ed8bbad5ca68128296f16aca6c1d24cc
-MD5sum: dd52528ea4db52a522783a55df0160ca
+Filename: pool/main/o/opendkim-ng/opendkim-tools_3.0.0~beta11-ng1~bpo12+1_amd64.deb
+Size: 75104
+SHA256: e950da969a89c29a3b1021e52729bb2a8861c429a96be74b74ffeee4549bc8f9
+SHA1: d011761de147034207ea1213b4338176d82c8887
+MD5sum: 6e6e5c037fca243bb467128665bec77f
 Description: Utilities for administering the OpenDKIM milter
  This is a fork of the original OpenDKIM Project. Support was added for
  OpenSSL 3, and Ed25519 signing and verifying were added.
@@ -198,19 +198,19 @@ Description: Utilities for administering the OpenDKIM milter
 
 Package: opendkim-tools-dbgsym
 Source: opendkim-ng
-Version: 3.0.0~beta10-ng1~bpo12+1
+Version: 3.0.0~beta11-ng1~bpo12+1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Edmund Lodewijks <edmund@proteamail.com>
-Installed-Size: 188
-Depends: opendkim-tools (= 3.0.0~beta10-ng1~bpo12+1)
+Installed-Size: 190
+Depends: opendkim-tools (= 3.0.0~beta11-ng1~bpo12+1)
 Priority: optional
 Section: debug
-Filename: pool/main/o/opendkim-ng/opendkim-tools-dbgsym_3.0.0~beta10-ng1~bpo12+1_amd64.deb
-Size: 144896
-SHA256: b1dfdfbabd9453cd87f815fffbf74b5fd4833d8648495e6f1f2972be6f70eef1
-SHA1: 2e8544cb90f22d95bb5dfd7e22cff68000fb7268
-MD5sum: 7991ac0a4dd838f412a2763b7ac4d969
+Filename: pool/main/o/opendkim-ng/opendkim-tools-dbgsym_3.0.0~beta11-ng1~bpo12+1_amd64.deb
+Size: 145428
+SHA256: 50cf8ce5a9d1506e0d8bcef69b0cab84fb10dba55c7dfa5a702a32e29848cfab
+SHA1: f773846cc1c973ee8603e62bad6e0e35d64c954b
+MD5sum: c59c4a8891f3c334a03d26c83f4c6948
 Description: debug symbols for opendkim-tools
-Build-Ids: 355a10943a087603df93db196c55f4c060059f20 c4e1add469985ee719b2f3eb5032a896bbe1cd95 eaa9b7f7c135963096dd7b1a390e7854b86ef876
+Build-Ids: 530f9b08941ce19ab5cdd809a4dcecd90845d7f6 5a453ccdbba23e889633c61b4effd26bca5137a1 cebdbc02d7cd062468bfa123cacb77ddd5d0cf42
 

@@ -4,26 +4,26 @@ Hash: SHA512
 Origin: edmundlod
 Label: edmundlod
 Codename: bookworm
-Date: Wed, 13 May 2026 21:44:48 UTC
+Date: Thu, 21 May 2026 11:59:23 UTC
 Architectures: amd64
 Components: main
 Description: Edmund Lodewijks personal apt repository
 MD5Sum:
- 204d6027eaa7b50ef745d004e67b2f8a 9021 main/binary-amd64/Packages
- 7104adb670b4288ba4a97c506b5ed2eb 2539 main/binary-amd64/Packages.gz
+ a88d346a6b693186c6d3291eaba3773d 9021 main/binary-amd64/Packages
+ 510ccdee9abf4caa2449e1d3cc13e8ef 2541 main/binary-amd64/Packages.gz
  2f3d5b582804bb2fd608ba4e25391efc 125 main/binary-amd64/Release
 SHA1:
- a67435eb1433e750b233d0d04b96add435321f85 9021 main/binary-amd64/Packages
- 2b77e60dad068f59c9f5fd2477cdddbebd7b041f 2539 main/binary-amd64/Packages.gz
+ 0e409444fdab4a9d3ea4b6c1cb0f6f179fcc2723 9021 main/binary-amd64/Packages
+ 4cf291ddf15e676d9739ff555f57697b5e833975 2541 main/binary-amd64/Packages.gz
  e48d1673d69c395d39967e39b3db045024614351 125 main/binary-amd64/Release
 SHA256:
- bf21f17202cd85048f3a9947c9713b7ea48b3cf14650222e8797c6f1fdc16a73 9021 main/binary-amd64/Packages
- 2ba3299694d47453456aa0741549e07516eb69fcfdd2a8275473977549e17544 2539 main/binary-amd64/Packages.gz
+ 821add4b9157cdaae57da44fbf3b8385516f613f315487bc91800fc2fe0bb7c2 9021 main/binary-amd64/Packages
+ a572c3577a271115560ef9df5eb8525e6c668244cb4a7a428fc91404bb1cce7e 2541 main/binary-amd64/Packages.gz
  7dc575632a2963084898de9171854904ad716ab18dbc55370bc830da7bfc175a 125 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQSf9BpEJwodiCJuUPPnXHiij2D3MAUCagTw0AAKCRDnXHiij2D3
-ME3rAP0b0TmJOWr4xrjQpGEvkxPX+9E1e+Wakub43ZrSCgK9mQEA6trc/qbFYU2D
-NbG7vlwvvaFnpnmMzRtvZmmWcpOA4g0=
-=X1Fz
+iHUEARYKAB0WIQSf9BpEJwodiCJuUPPnXHiij2D3MAUCag7zmwAKCRDnXHiij2D3
+MGR3AQDbptDTYP56FTWvgl3FR8u3GN9JO7az23Uv1QWRPrDZXAEA3HuP4uzzimAG
+kfAitECteM7T/frpdGx726GtLRxFpQ4=
+=zg28
 -----END PGP SIGNATURE-----
