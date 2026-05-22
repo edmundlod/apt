@@ -34,6 +34,9 @@ jobs:
           echo "${{ secrets.APT_SIGNING_KEY }}" | base64 -d | gpg --import
           echo "9FF41A44270A1D88226E50F3E75C78A28F60F730:6:" | gpg --import-ownertrust
 
+      - name: Sync to latest main
+        run: git fetch origin && git reset --hard origin/main
+
       - name: Download and add packages
         env:
           DEB_URLS: ${{ toJson(github.event.client_payload.deb_urls) }}
@@ -63,5 +66,7 @@ jobs:
           for i in $(seq 1 5); do
             git pull --rebase && git push && break
             echo "Push attempt $i failed, retrying..."
+            git rebase --abort 2>/dev/null || true
+            [ "$i" -eq 5 ] && { echo "ERROR: All push attempts failed"; exit 1; }
             sleep $((RANDOM % 15 + 5))
           done
