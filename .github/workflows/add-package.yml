@@ -43,18 +43,22 @@ jobs:
           DEB_URL: ${{ github.event.client_payload.deb_url || inputs.deb_url }}
           CODENAME: ${{ github.event.client_payload.codename || inputs.codename }}
         run: |
+          add_deb() {
+            local url="$1"
+            echo "Downloading: $url"
+            wget -q "$url" -O package.deb
+            pkg_name=$(dpkg-deb --field package.deb Package)
+            echo "Removing any existing $pkg_name from $CODENAME..."
+            reprepro remove "$CODENAME" "$pkg_name" || true
+            reprepro -V includedeb "$CODENAME" package.deb
+            rm package.deb
+          }
           if [ "$DEB_URLS" != "null" ] && [ -n "$DEB_URLS" ]; then
             echo "$DEB_URLS" | jq -r '.[]' | while read url; do
-              echo "Downloading: $url"
-              wget -q "$url" -O package.deb
-              reprepro -V includedeb "$CODENAME" package.deb || echo "WARNING: reprepro failed for $url"
-              rm package.deb
+              add_deb "$url"
             done
           else
-            echo "Downloading: $DEB_URL"
-            wget -q "$DEB_URL" -O package.deb
-            reprepro includedeb "$CODENAME" package.deb
-            rm package.deb
+            add_deb "$DEB_URL"
           fi
 
       - name: Commit and push
