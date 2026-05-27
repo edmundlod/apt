@@ -215,20 +215,20 @@ Description: debug symbols for opendkim-tools
 Build-Ids: 23e69a94a006cc9419dec9ef6ff275102307f87e 9e8c6cd7b856b0895dc8ba807188f3002880ca9f a2d57d829d9e6fa0df8cce14b014987470e0c8b4
 
 Package: postallow
-Version: 4.3.0-2
+Version: 4.5.0-1
 Architecture: all
 Maintainer: Edmund Lodewijks <edmund@proteamail.com>
-Installed-Size: 88
+Installed-Size: 93
 Depends: adduser, postfix, spf-tools, route-summarization
 Suggests: apparmor
 Homepage: https://github.com/edmundlod/postallow
 Priority: optional
 Section: mail
-Filename: pool/main/p/postallow/postallow_4.3.0-2_all.deb
-Size: 23910
-SHA256: cba9e4047514b3e1251e4572325194e3905292089ce417c6113d3d5ad6e045c2
-SHA1: 721cd721fb7676c51b1ff2372aff750bab639033
-MD5sum: abd600ca4ce95b2b2f28f7e3c29545be
+Filename: pool/main/p/postallow/postallow_4.5.0-1_all.deb
+Size: 27384
+SHA256: 6c4cf2f1aca94e1bc068d6735400acc5e026a0c09b346d8764b8e8780188d2b1
+SHA1: 9edd79d353e5d0170971f439cd3ee2c5713cbb61
+MD5sum: fd50571a023d1968cdad0db42175a8fe
 Description: Postfix Postscreen allowlist and blocklist generator from SPF records
  Postallow generates CIDR allowlists (and optionally blocklists) for Postfix's
  Postscreen by expanding the SPF records of large, trusted mail senders such as
